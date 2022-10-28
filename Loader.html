@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            New Movies
+        </title>
+        <link rel="shortcut icon" type="image/png" href="images/phimmoizz.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    </head>
+    <body onload="myFunction()" style="margin:0 auto;">
+        <div id="navbar2" style="font-family: 'Segoe UI', Tahoma;" class="animate__animated animate__fadeInDown animate__delay-0.4s">
+            <div style="width: 20px; display:inline-block;"></div>
+            <div style="display: inline-block;text-align: left;">
+                <a href="index.html" style="text-decoration: none;">
+                    <div style="padding: 10px 15px; display:inline-block" class="menu-item">
+                        <img src="images/phimmoizz.png"  width="45px">
+                    </div>
+                </a>
+                <a href="ranking.html" style="text-decoration: none;">
+                    <div class="menu-item">
+                        RANKING
+                    </div>
+                </a>
+                <a href="new.html" style="text-decoration: none;">
+                    <div class="menu-item">
+                        LASTEST
+                    </div>
+                </a>
+                </div>
+                <div style="display: inline-block;text-align: right;" class="nav_sub">
+                <a href="Action.html" style="text-decoration: none;">
+                    <div class="menu-item">
+                        ACTION
+                    </div>
+                </a>
+                <a href="Action.html" style="text-decoration: none;">
+                    <div class="menu-item">
+                        SCI-FI
+                    </div>
+                </a>
+                <a href="Action.html" style="text-decoration: none;">
+                    <div class="menu-item">
+                        ROMANCE
+                    </div>
+                </a>
+                <a href="Action.html" style="text-decoration: none;">
+                    <div class="menu-item">
+                        CARTOON
+                    </div>
+                </a>
+                <a href="Action.html" style="text-decoration: none;">
+                    <div class="menu-item">
+                        COMEDY
+                    </div>
+                </a>
+                <a href="Action.html" style="text-decoration: none;">
+                    <div class="menu-item">
+                        HORROR
+                    </div>
+                </a>
+            </div>
+            <div style="width: 50px; display:inline-block;"s></div>
+        </div>
+        <div id="loader"></div>
+
+        <div style="display:none;  text-align: center!important;margin-top: 250px;" id="myDiv" class="animate-bottom">
+            
+        <h2>FINISHED</h2>
+        <p style=" text-align: center!important;"> Your submission has been sent</p>
+        <p style=" text-align: center!important;"> Please wait for our manager to answer your submission </p>
+        <p style=" text-align: center!important;"> < Maybe never :) > </p>
+
+        <div style="margin-top:30px; margin-bottom: 250px;">
+            <a href="index.html">
+                <div class="tag21" >
+                    Back to homepage
+                </div>
+            </a>
+        </div>
+
+
+
+        <footer class="animate__animated animate__fadeInUp animate__delay-1s">
+            <div class="footer_grid">
+                <div class="footer_address">
+                    <h4>CONTACT</h4>
+                    <h5>Street: 1 Manhattan </h5>
+                    <h5>City: New York </h5>
+                    <h5>State: New Jersey</h5>
+                    <h5>Zip Code: 10001</h5>
+                    <h5>Phone Number: 000 000 0000</h5>
+                    <h5>Mobile Number: 000 000 0000</h5>
+                </div>
+                <div class="footer_menu">
+                    <h4>MENU</h4>
+                    <a href="#home">
+                        <h5>Home </h5>
+                    </a>
+                    <a href="ranking.html">
+                        <h5>Ranking </h5>
+                    </a>
+                    <a href="new.html">
+                        <h5>Films</h5>
+                    </a>
+                    <a href="films.html">
+                        <h5>News</h5>
+                    </a>
+                </div>
+                <div class="footer_post">
+                    <h4>RECENT POST</h4>
+                    <a href="kingsman.html">
+                        <h5>Kingsman: The Golden Circle</h5>
+                    </a>
+                    <a href="avenger4.html">
+                        <h5>Avenger: End Game</h5>
+                    </a>
+                    <a href="kingsman.html">
+                        <h5>John Wick</h5>
+                    </a>
+                    <a href="kingsman.html">
+                        <h5>Doctor Strange</h5>
+                    </a>
+                    <a href="kingsman.html">
+                        <h5>Joker</h5>
+                    </a>
+                </div>
+                <div class="footer_social">
+                    <h4>SOCIAL</h4>
+                    <a href="https://www.facebook.com/" class="footer_social_main"target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                        <h5 class="footer_social_sub">Facebook</h5>
+                    </a>
+                    <a href="https://www.instagram.com/"class="footer_social_main"target="_blank">
+                        <i class="fab fa-instagram-square"></i>
+                        <h5 class="footer_social_sub">Instagram</h5>
+                    </a>
+                    <a href="https://www.youtube.com/"class="footer_social_main"target="_blank">
+                        <i class="fab fa-youtube-square"></i>
+                        <h5 class="footer_social_sub">You Tube</h5>
+                    </a>
+                    <a href="https://twitter.com/"class="footer_social_main" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                        <h5 class="footer_social_sub">Twitter</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="mid " style="padding-top: 60px;">Copyright © 2021 Bruh Company &nbsp;&nbsp; | &nbsp;&nbsp; All Rights Reserved &nbsp;&nbsp; </div>
+        </footer>
+
+
+    </div>
+
+    <script>
+    var myVar;
+
+    function myFunction() {
+    myVar = setTimeout(showPage, 1000);
+    }
+
+    function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
